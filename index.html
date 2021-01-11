@@ -21,6 +21,9 @@
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
 
+
+
+
      <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
@@ -37,6 +40,8 @@ https://www.tooplate.com/view/2120-ben-resume
 </head>
 
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+
 
     <!-- MENU BAR -->
     <nav class="navbar navbar-expand-lg">
@@ -409,36 +414,14 @@ https://www.tooplate.com/view/2120-ben-resume
      
      <div id="webchat"/>
      <script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
-     
-     <!-- // Or you can replace latest with a specific version
-     //chatbot -->
-     <!-- <script>
-       WebChat.default.init({
-         selector: "#webchat",
-         customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
-         //socketUrl: "http://localhost:5005",
-         socketUrl: "https://omkarprofilebot.herokuapp.com/",
-         socketPath: "/socket.io/",
-         title: "Ask About Me ?",
-         subtitle: "Omkar Rane",
-     
-       })
-     </script> -->
-
-
-     <!-- new chatbot template updated code -->
-
 
      <div class="container">
-
-
-
       <!--chatbot widget -->
       <div class="widget">
           <div class="chat_header">
 
               <!--Add the name of the bot here -->
-              <span class="chat_header_title">Omkar Bot</span>
+              <span class="chat_header_title">JobBot</span>
               <span class="dropdown-trigger" href='#' data-target='dropdown1'>
                 <i class="material-icons"> more_vert </i>
              </span>
@@ -460,7 +443,7 @@ https://www.tooplate.com/view/2120-ben-resume
           <!--keypad for user to type the message -->
           <div class="keypad">
               <textarea id="userInput" placeholder="Type a message..." class="usrInput"></textarea>
-              <div id="sendButton"><i class="fa fa-paper-plane" aria-hidden="true"></i></div>
+              <!-- <div id="sendButton"><i class="fa fa-paper-plane" aria-hidden="true"></i></div> -->
           </div>
       </div>
 
@@ -473,13 +456,12 @@ https://www.tooplate.com/view/2120-ben-resume
       <div class="tap-target" data-target="profile_div">
           <div class="tap-target-content">
               <h5 class="white-text">Hey 👋</h5>
-              <p class="white-text">Can I answer your questions?</p>
+              <p class="white-text">I can answer your questions.</p>
       
           </div>
       </div>
 
   </div>
-
   <!--JavaScript at end of body for optimized loading-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="static/js/materialize.min.js"></script>
@@ -489,6 +471,32 @@ https://www.tooplate.com/view/2120-ben-resume
 
   <!--Chart.js Script -->
   <script type="text/javascript" src="static/js/chart.min.js"></script>
+
+     
+     <!-- // Or you can replace latest with a specific version
+     //chatbot -->
+     <!-- <script>
+       WebChat.default.init({
+         selector: "#webchat",
+         customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+         //socketUrl: "http://localhost:5005",
+         socketUrl: "https://omkarprofilebot.herokuapp.com/",
+         socketPath: "/socket.io/",
+         title: "Ask About Me ?",
+         subtitle: "Omkar Rane",
+     
+       })
+     </script> -->
+
+
+     <!-- new chatbot template updated code -->
+
+  <!-- new chatbot code -->
+
+
+
+
+    
 
 </body>
 </html>
