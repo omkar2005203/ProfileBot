@@ -1,181 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Omkar Rane - CV Portal</title>
+    <title>Omkar Rane | CV</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="description" content="Omkar Rane's CV Portal">
+    <meta name="description" content="Curriculum Vitae of Omkar Rane">
     <meta name="keywords" content="Omkar Rane, CV, Resume, Portfolio">
     <meta name="author" content="Omkar Rane">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- CSS Links -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="static/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
 
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
-    <!-- MENU BAR -->
-    <nav class="navbar navbar-expand-lg">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">Omkar Rane</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a href="#intro" class="nav-link smoothScroll">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link smoothScroll">About Me</a></li>
-                    <li class="nav-item"><a href="#experience" class="nav-link smoothScroll">Experience</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link smoothScroll">Education</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link smoothScroll">Skills</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link smoothScroll">Projects</a></li>
-                    <li class="nav-item"><a href="#publications" class="nav-link smoothScroll">Publications</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link smoothScroll">Contact</a></li>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#publications" class="nav-link">Publications</a></li>
+                    <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- HERO -->
-    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+    <!-- HERO SECTION -->
+    <section class="hero-section d-flex align-items-center" id="hero">
+        <div class="container text-center">
+            <img src="images/omkar.jpg" class="rounded-circle mb-3" width="150" alt="Omkar Rane">
+            <h1 class="text-white">Omkar Rane</h1>
+            <p class="text-white-50">Manager - R&D, Intelligent Systems at Chetak Technology Ltd. (Bajaj Auto Limited)</p>
+            <a href="#contact" class="btn btn-primary mt-3">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section-padding" id="about">
         <div class="container">
+            <h2 class="section-title">About Me</h2>
             <div class="row">
-                <div class="mx-auto col-lg-5 col-md-5 col-10">
-                    <img src="images/omkar.jpg" class="img-fluid" alt="Omkar Rane">
+                <div class="col-lg-4">
+                    <img src="images/omkar_main.jpg" class="img-fluid rounded" alt="Omkar Rane">
                 </div>
-                <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
-                    <div class="hero-text">
-                        <h1 class="hero-title">Omkar Rane</h1>
-                        <h2>Python Developer & R&D Manager</h2>
-                        <p>Art of working skillfully - कर्मसु कौशलम्</p>
-                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                <div class="col-lg-8">
+                    <p>Strong design and integration capabilities, as well as intuitive problem-solving abilities. I work as a Python developer. I've worked on backend projects such as REST APIs, rate limiting systems, data pipelines, and deployment tools such as Docker and Ansible. I am enthusiastic about implementing and launching new initiatives. Capability to transform business needs into technical solutions. I always look forward to working as a software developer for a reputable company that is driven by technology.</p>
+                    <ul class="list-unstyled">
+                        <li><strong>Full Name:</strong> Omkar Rane</li>
+                        <li><strong>Organization:</strong> Chetak Technology Ltd. (Bajaj Auto Limited)</li>
+                        <li><strong>Role:</strong> Manager - R&D, Intelligent Systems</li>
+                        <li><strong>Location:</strong> India</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/omkarane/" class="text-dark mr-2"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="https://github.com/omkar2005203" class="text-dark mr-2"><i class="fab fa-github fa-2x"></i></a>
+                        <a href="https://www.hackerrank.com/omkar_2005203" class="text-dark mr-2"><i class="fab fa-hackerrank fa-2x"></i></a>
+                        <a href="https://g.dev/Omkar_Rane" class="text-dark"><i class="fab fa-google fa-2x"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ABOUT -->
-    <section class="about section-padding" id="about">
+    <!-- EDUCATION SECTION -->
+    <section class="bg-light section-padding" id="education">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <h3 class="mb-4">About Me</h3>
-                    <p>I am a Python developer with strong design and integration capabilities, as well as intuitive problem-solving abilities. I have worked on backend projects such as REST APIs, rate limiting systems, data pipelines, and deployment tools like Docker and Ansible. My passion lies in implementing and launching new initiatives, with a focus on transforming business needs into technical solutions.</p>
-                    <p><strong>Education:</strong> B.Tech (Electronics & Telecommunication Engineering) from MIT Academy Of Engineering, Savitribai Phule Pune University. Class: First Class with Distinction, C.G.P.A of 8.91</p>
-                </div>
-                <div class="col-lg-5 mx-auto col-md-6 col-12">
-                    <img src="images/omkar_main.jpg" class="about-image img-fluid" alt="Omkar Rane">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section class="experience section-padding" id="experience">
-        <div class="container">
-            <h3 class="mb-5 text-center">Experience</h3>
+            <h2 class="section-title">Education</h2>
             <div class="timeline">
                 <div class="timeline-item">
-                    <h4>Manager - R&D, Intelligent Systems</h4>
-                    <p>Chetak Technology Ltd. (Bajaj Auto Limited) | 2024-Present</p>
-                </div>
-                <div class="timeline-item">
-                    <h4>Senior Engineer, Python Developer</h4>
-                    <p>Tata Elxsi Ltd. | 2023-2024</p>
-                </div>
-                <div class="timeline-item">
-                    <h4>Engineer, Python Developer</h4>
-                    <p>Tata Elxsi Ltd. | 2022-2023</p>
-                </div>
-                <div class="timeline-item">
-                    <h4>Trainee Software Engineer</h4>
-                    <p>Marsh & McLennan | 2021-2022</p>
+                    <h5 class="timeline-date">2017 - 2021</h5>
+                    <h4 class="timeline-title">Bachelor of Technology in Electronics & Telecommunication Engineering</h4>
+                    <p><strong>MIT Academy Of Engineering</strong>, affiliated to Savitribai Phule Pune University.</p>
+                    <p><strong>Result Class:</strong> First Class with Distinction, C.G.P.A of 8.91, S.G.P.A of 9.76</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- EDUCATION -->
-    <section class="education section-padding" id="education">
+    <!-- EXPERIENCE SECTION -->
+    <section class="section-padding" id="experience">
         <div class="container">
-            <h3 class="mb-5 text-center">Education</h3>
+            <h2 class="section-title">Work Experience</h2>
             <div class="timeline">
                 <div class="timeline-item">
-                    <h4>Bachelor of Technology (B.Tech)</h4>
-                    <p>MIT Academy Of Engineering, Savitribai Phule Pune University | 2016-2020</p>
+                    <h5 class="timeline-date">2024 - Present</h5>
+                    <h4 class="timeline-title">Manager - R&D, Intelligent Systems</h4>
+                    <p><strong>Chetak Technology Ltd. (Bajaj Auto Limited)</strong></p>
+                </div>
+                <div class="timeline-item">
+                    <h5 class="timeline-date">2023 - 2024</h5>
+                    <h4 class="timeline-title">Senior Engineer, Digital Applications Engineer (Python Developer)</h4>
+                    <p><strong>Tata Elxsi Ltd.</strong> | BU-MCV, Digital Practice</p>
+                </div>
+                <div class="timeline-item">
+                    <h5 class="timeline-date">2022 - 2023</h5>
+                    <h4 class="timeline-title">Engineer, Digital Applications Engineer (Python Developer)</h4>
+                    <p><strong>Tata Elxsi Ltd.</strong> | BU-MCV, Digital Practice</p>
+                </div>
+                <div class="timeline-item">
+                    <h5 class="timeline-date">2021 - 2022</h5>
+                    <h4 class="timeline-title">Trainee Software Engineer</h4>
+                    <p><strong>Marsh & McLennan</strong></p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SKILLS -->
-    <section class="skills section-padding" id="skills">
+    <!-- SKILLS SECTION -->
+    <section class="bg-light section-padding" id="skills">
         <div class="container">
-            <h3 class="mb-5 text-center">Skills</h3>
+            <h2 class="section-title">Skills</h2>
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-12">
-                    <h4>Programming Languages</h4>
+                <div class="col-md-6">
+                    <h5>Programming Languages</h5>
                     <ul>
                         <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>SQL</li>
+                        <li>Cloud Computing (AWS)</li>
+                        <li>Perl</li>
+                        <li>Embedded C</li>
+                         <li>Data Engineering </li>
+                        <li>Automations</li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                    <h4>Technologies</h4>
+                <div class="col-md-6">
+                    <h5>Technologies & Tools</h5>
                     <ul>
+                        <li>REST API Development & Design</li>
                         <li>Docker</li>
                         <li>Ansible</li>
-                        <li>REST APIs</li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                    <h4>Tools</h4>
-                    <ul>
-                        <li>Git</li>
-                        <li>Jenkins</li>
-                        <li>Postman</li>
+                        <li>Data Pipelines</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section class="projects section-padding" id="projects">
+    <!-- PUBLICATIONS SECTION -->
+    <section class="section-padding" id="publications">
         <div class="container">
-            <h3 class="mb-5 text-center">Projects</h3>
+            <h2 class="section-title">Publications</h2>
+            <div class="publication-item">
+                <h4>Vehicle Tracking with Alcohol Detection & Seat Belt Control System</h4>
+                <p>IEEE: <a href="https://ieeexplore.ieee.org/document/9154093">Research Paper published in 2020 International Conference for Emerging Technology (INCET), June 2020</a></p>
+                <p>Electronic ISBN: 978-1-7281-6221-8 CD: 978-1-7281-6220-1, INSPEC Accession Number: 19887542</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="bg-light section-padding" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Internships</h2>
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <h4>Project Name 1</h4>
-                    <p>Project description and details.</p>
+                <div class="col-md-6">
+                    <h5>Semester Long Internship (6 Months)</h5>
+                    <p><strong>Tata Motors Ltd. (GDC), Digital Transformation & Change Management</strong></p>
+                    <p>Developed Natural Language Processing chatbots, dashboard webpages, and contributed to a web portal for contract life cycle management.</p>
+                    <p><a href="https://rb.gy/zbv1nd">View Certificate</a></p>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12">
-                    <h4>Project Name 2</h4>
-                    <p>Project description and details.</p>
+                <div class="col-md-6">
+                    <h5>Summer Internship</h5>
+                    <p><strong>JLR & Tata Motors Ltd. Car Plant, PVBU</strong></p>
+                    <p>Worked on Kuka KCR2 robots programming, PLC installation, sensor testing, and implemented manufacturing processes like pokayoke and kaizen.</p>
+                    <p><a href="https://bit.ly/2KqxS6k">View Certificate</a></p>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <h5>EU-ICT India Standardisation Collaboration: Developers Tutorial Hackathon</h5>
+                    <p>Contributed to developing solutions for city-traffic, environmental management, and smart vehicle technology.</p>
+                    <p><a href="https://www.indiaeu-ictstandards.in/developers_tutorial/">More Information</a></p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- PUBLICATIONS -->
-    <section class="publications section-padding" id="publications">
+    <!-- CONTACT SECTION -->
+    <section class="section-padding" id="contact">
         <div class="container">
-            <h3 class="mb-5 text-center">Publications</h3>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <h4>Research Paper Title 1</h4>
-                    <p><a href="#">Link to paper</a></p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12">
-                    <h4>Research Paper Title 2</h4>
-                    <
+            <h2 class="section-title">Contact</h2>
+            <p>If you would like to get in touch, feel free to reach out through any of the platforms below.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/omkarane/" class="text-dark mr-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/omkar2005203" class="text-dark mr-3"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.hackerrank.com/omkar_2005203" class="text-dark mr-3"><i class="fab fa-hackerrank fa-2x"></i></a>
+                <a href="https://g.dev/Omkar_Rane" class="text-dark"><i class="fab fa-google fa-2x"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Omkar Rane. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
